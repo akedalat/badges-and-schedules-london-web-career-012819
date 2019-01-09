@@ -12,6 +12,7 @@ i += 1
 end
 return batch
 end
+<<<<<<< HEAD
 
 def assign_rooms(speakers)
 assign = []
@@ -20,4 +21,8 @@ assign.push("Hello, #{names}! You'll be assigned to room #{index + 1}!")
 
 end
 return assign
+end
+
+def printer
+batch_badge_creator()
 end
