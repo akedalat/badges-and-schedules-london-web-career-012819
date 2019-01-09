@@ -24,12 +24,7 @@ return assign
 end
 
 def printer(array)
-print_array = []
-i = 0
-while i < array.length
-  print_array.push(batch_badge_creator(array[i]))
-print_array.push(assign_rooms(array[i]))
-  i += 1
+batch_badge_creator(array).each do |line|
+puts line
 end
-return print_array
 end
