@@ -24,10 +24,10 @@ return assign
 end
 
 def printer(array)
-batch_badge_creator(array).each do |line|
-puts line
-end
-assign_rooms(array).each do |line|
+  batch_badge_creator(array).each do |line|
   puts line
-    end
+  end
+  assign_rooms(array).each do |line|
+  puts line
+  end
 end
