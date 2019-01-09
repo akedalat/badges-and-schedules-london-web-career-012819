@@ -31,6 +31,5 @@ while i < array.length
 print_array.push(assign_rooms(array[i]))
   i += 1
 end
-batch_badge_creator(array)
-assign_rooms(array)
+return print_array
 end
