@@ -12,7 +12,7 @@ i += 1
 end
 return batch
 end
-<<<<<<< HEAD
+
 
 def assign_rooms(speakers)
 assign = []
